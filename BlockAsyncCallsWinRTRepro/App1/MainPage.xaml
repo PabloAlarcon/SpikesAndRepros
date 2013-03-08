@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel>
+        <Button Click="ButtonConfigureAwaitClick">ConfigureAwait(false)</Button>
+        <TextBox  x:Name="textblockConfigureAwait" IsReadOnly="True"></TextBox>
+        <Button Click="ButtonTaskRun">Task.Run( ()=> ).Result</Button>
+        <TextBox  x:Name="textblockTask" IsReadOnly="True"></TextBox>
+        <Button Click="ButtonTaskRunAsyncAwait">Task.Run( async()=> await T).Result</Button>
+        <TextBox  x:Name="textblockTaskRunAsyncAwait" IsReadOnly="True"></TextBox>
+        <Button Click="ButtonTaskRunWaitTimeout">Wait with Timeout</Button>
+        <TextBox  x:Name="textblockTaskWaitTimeout" IsReadOnly="True"></TextBox>
+        <Button Click="ButtonAutoResetEvent">Wait with AutoResetEvent</Button>
+        <TextBox  x:Name="textblockAutoResetEvent" IsReadOnly="True"></TextBox>
+    </StackPanel>
+
+</Page>

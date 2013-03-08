@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-DELL</Machine>
+    <WindowsUser>Pablo</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>EB9D6FD8791DB3BC476B14069506A4723EF5DF169D1665928D160CEE7E8A3DC1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>37c63a80-528f-49d3-b1bc-bdb55d548e78_1.0.0.0_neutral__kz4kb96qfxs5j</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>37c63a80-528f-49d3-b1bc-bdb55d548e78_kz4kb96qfxs5j!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>37c63a80-528f-49d3-b1bc-bdb55d548e78</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Pablo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-07T13:11:03.712</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2013-03-08T11:33:19.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\App1.pdb">
+      <PackagePath>App1.pdb</PackagePath>
+      <Modified>2013-03-08T11:33:19.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-03-07T13:08:12.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T15:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-03-08T11:33:02.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\BlockAsyncCallsWinRTRepro\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-07T13:11:02.942</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
